@@ -21,9 +21,11 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Premain-Class>com.practice.agent.Agent</Premain-Class>
+                            <Premain-Class>com.practice.agent.PreMainAgent</Premain-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
+                            <Agent-Class>com.practice.agent.MainAgent</Agent-Class>
+                            <Class-Path>/Users/tbj/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar</Class-Path>
                         </manifestEntries>
                     </archive>
                 </configuration>

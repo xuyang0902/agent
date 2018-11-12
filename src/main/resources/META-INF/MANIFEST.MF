@@ -1,3 +1,5 @@
 Manifest-Version: 1.0
-Premain-Class: Agent
+Premain-Class: com.practice.agent.PreMainAgent
+Agent-Class: com.practice.agent.MainAgent
 Can-Redefine-Classes: true
+Class-Path: /Users/tbj/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar
